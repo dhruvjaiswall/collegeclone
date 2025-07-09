@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - Government Engineering College Ajmer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c3ecf7, #a9c9ff);
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: rgba(46, 134, 193, 0.9);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(27, 79, 114, 0.9);
+  }
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s;
+  }
+  nav a:hover {
+    background-color: #145a86;
+  }
+  .container {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    color: #2e86c1;
+    margin-bottom: 20px;
+  }
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease;
+  }
+  label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+  }
+  input:focus, textarea:focus {
+    border: 1px solid #2e86c1;
+    outline: none;
+  }
+  button {
+    background-color: #2e86c1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background-color: #1b4f72;
+  }
+  .contact-info {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  .contact-info h3 {
+    color: #2e86c1;
+  }
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="departments.html">Departments</a>
+  <a href="addmissions.html">Admissions</a>
+  <a href="placement.html">Placements</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>Get in Touch</h2>
+  <form action="https://example.com/submit" method="post">
+    <label for="name">Full Name:</label>
+    <input id="name" name="name" type="text" required>
+
+    <label for="email">Email Address:</label>
+    <input id="email" name="email" type="email" required>
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <h3>Our Contact Info</h3>
+    <p><strong>Address:</strong> Government Engineering College Ajmer, Ajmer, Rajasthan</p>
+    <p><strong>Email:</strong> http://www.ecajmer.ac.in</p>
+    <p><strong>Phone:</strong> +91 1452971024</p>
+  </div>
+</div>
+
+</body>
+</html>
